@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="mugiwara.ico" type="image/x-icon">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+
+            background-color: rgb(14, 158, 177);
+
+        }
+    </style>
+    <!-- o css ali dentro está fazendo que a tag mark receba uma coloração padrão, ou seja, quaisquer tags criadas e ja existentes serão automaticamente formatadas para a selecionada acima-->
+</head>
+
+<body>
+    <h1>Principais Fomatações</h1>
+    <h2>negrito /destaque</h2>
+    <p>
+        Nessa frase temos um <b>termo em negrito
+        </b> usando a tag &lt;b&gt;(Não semântica)
+
+    </p>
+
+    <p>Nesta frase, tenho um <strong>termo em destaque
+        </strong> Usando a tag &lt;strong&gt; (Semântica)
+
+    </p>
+
+    <h2>Itálico /Ênfase </h2>
+    <p>Nesta frase, temos um <i> termo em itálico
+        </i> usando a tag &lt;i&gt;(não semãntica)
+    </p>
+
+    <p>Nesta frase, <em>temos em ênfase</em> usando a tag &lt;em&gt;
+
+    </p>
+
+
+    <!-- Recomenda-se apenas usar as tags com semânticas
+
+               -->
+
+
+    <!--Continuação do  exercicio anterior abaixo-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag
+        &lt;mark&gt;
+    <p>
+    <p>E no outro parágrafo, temos <mark> outro texto marcado</mark>
+    <p>
+
+    <p>Teste aqui neste parágrafo <mark>testando agora </mark>
+    </p>
+
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>Texto grande</big> e um <small> texto pequeno</small> nesse parágrafo</p>
+    <!--Big esta obsoleta e nao é semântica-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar um t<ins>exto como inserido</ins> para dar uma ênfase e indicar que ele foi adcionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U,(não semântica)</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+
+</html>
